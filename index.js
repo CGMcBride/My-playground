@@ -3,8 +3,9 @@ function myFunction(name) {
 };
 
 myFunction("conner")
+myFunction("grant")
 
-const waterPlant = function (days) {
+const waterPlant = (days) => {
     if (days === "tuesday") {
         return true;
     } else {
